@@ -1,0 +1,35 @@
+generations:
+  - name: "First Generation"
+    start_year: 1964
+    end_year: 1967
+    description: "The original Malibu was introduced as a top-line trim level of the Chevrolet Chevelle, featuring more upscale appointments and styling. Available in sedan, coupe, convertible, and wagon body styles, it offered various engine options including the legendary SS performance variants with big-block V8s. This generation established the Malibu nameplate and its reputation for combining mainstream appeal with available performance options."
+
+  - name: "Second through Fourth Generations (as Chevelle Malibu)"
+    start_year: 1968
+    end_year: 1983
+    description: "Through the 1970s, the Malibu continued as a trim level of the Chevelle before eventually becoming its own model line as the Chevelle name was phased out. These generations saw the Malibu transition from a muscle car era icon to a more efficient mid-size offering in response to changing market conditions. The final rear-wheel drive generation ended production in 1983, with various sedans, coupes, and wagons offered throughout this period."
+
+  - name: "Fifth Generation"
+    start_year: 1997
+    end_year: 2003
+    description: "After a 14-year hiatus, the Malibu returned as a front-wheel drive mid-size sedan based on GM's N-body platform. Designed to compete with the Toyota Camry and Honda Accord, it featured conservative styling and a focus on value. Initially powered by a 2.4L four-cylinder or 3.1L V6 engine, it prioritized comfort and efficiency over performance. Despite modest sales success, this generation helped reestablish the Malibu in the important mid-size sedan segment."
+
+  - name: "Sixth Generation"
+    start_year: 2004
+    end_year: 2007
+    description: "The sixth-generation Malibu moved to GM's Epsilon platform and was available as both a traditional sedan and an extended-length Maxx hatchback variant. Engine options included a 2.2L four-cylinder and 3.5L V6, with a performance-oriented SS model featuring a 3.9L V6 producing 240 HP. Interior quality improved over its predecessor, though the design was criticized for being uninspiring. This generation represented Chevrolet's continued effort to compete in the mid-size segment while the unusual Maxx variant attempted to offer a European-inspired alternative body style."
+
+  - name: "Seventh Generation"
+    start_year: 2008
+    end_year: 2012
+    description: "The seventh-generation Malibu featured more distinctive styling and significant improvements in refinement and quality. Available only as a sedan, it won North American Car of the Year upon its introduction. Engine options included a 2.4L four-cylinder and 3.6L V6, with a mild hybrid system briefly offered. Interior quality and design took a major step forward, with a dual-cockpit layout and improved materials. This generation successfully improved the Malibu's reputation and competitiveness in the mid-size segment."
+
+  - name: "Eighth Generation"
+    start_year: 2013
+    end_year: 2015
+    description: "The short-lived eighth-generation Malibu featured more aerodynamic styling and reduced weight. Initially criticized for its tight rear seat room, a quick refresh for 2014 addressed this issue with revised rear seat packaging. Powertrain options included a 2.5L four-cylinder, 2.0L turbocharged four-cylinder, and a mild hybrid eAssist system. Despite technical improvements, this generation faced strong competition and was replaced after just three model years."
+
+  - name: "Ninth Generation"
+    start_year: 2016
+    end_year: null
+    description: "The current Malibu features sleek, coupe-like styling with significantly increased interior space compared to its predecessor. Built on GM's E2XX platform, it's notably lighter than the previous generation. Engine options have included a 1.5L turbocharged four-cylinder, 2.0L turbocharged four-cylinder, and for a time, a 1.8L hybrid system delivering impressive fuel economy. The interior offers modern technology including an available 8-inch touchscreen with smartphone integration. A refresh in 2019 updated the styling and technology offerings, while also introducing the sporty RS appearance package. Despite declining sedan sales industry-wide, the ninth-generation Malibu maintains Chevrolet's presence in the mid-size sedan segment with competitive efficiency, technology, and value."

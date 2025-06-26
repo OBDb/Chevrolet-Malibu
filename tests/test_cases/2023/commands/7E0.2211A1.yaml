@@ -4,8 +4,8 @@ test_cases:
     CHEVROLET_RUNTM: 0
   response: 7E8056211A10000
 - expected_values:
-    CHEVROLET_RUNTM: 3070
-  response: 7E8056211A10BFE
+    CHEVROLET_RUNTM: 7932
+  response: 7E8056211A11EFC
 - expected_values:
-    CHEVROLET_RUNTM: 11548
-  response: 7E8056211A12D1C
+    CHEVROLET_RUNTM: 8725
+  response: 7E8056211A12215

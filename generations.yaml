@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Chevrolet_Malibu"
+
 generations:
   - name: "First Generation"
     start_year: 1964
@@ -11,8 +14,8 @@ generations:
 
   - name: "Fifth Generation"
     start_year: 1997
-    end_year: 2003
-    description: "After a 14-year hiatus, the Malibu returned as a front-wheel drive mid-size sedan based on GM's N-body platform. Designed to compete with the Toyota Camry and Honda Accord, it featured conservative styling and a focus on value. Initially powered by a 2.4L four-cylinder or 3.1L V6 engine, it prioritized comfort and efficiency over performance. Despite modest sales success, this generation helped reestablish the Malibu in the important mid-size sedan segment."
+    end_year: 2005
+    description: "After a 14-year hiatus, the Malibu returned as a front-wheel drive mid-size sedan based on GM's N-body platform. Designed to compete with the Toyota Camry and Honda Accord, it featured conservative styling and a focus on value. Initially powered by a 2.4L four-cylinder or 3.1L V6 engine, it prioritized comfort and efficiency over performance. The generation was renamed Classic from 2004-2005 after the introduction of the new Epsilon platform Malibu. Despite modest sales success, this generation helped reestablish the Malibu in the important mid-size sedan segment."
 
   - name: "Sixth Generation"
     start_year: 2004
@@ -31,5 +34,5 @@ generations:
 
   - name: "Ninth Generation"
     start_year: 2016
-    end_year: null
-    description: "The current Malibu features sleek, coupe-like styling with significantly increased interior space compared to its predecessor. Built on GM's E2XX platform, it's notably lighter than the previous generation. Engine options have included a 1.5L turbocharged four-cylinder, 2.0L turbocharged four-cylinder, and for a time, a 1.8L hybrid system delivering impressive fuel economy. The interior offers modern technology including an available 8-inch touchscreen with smartphone integration. A refresh in 2019 updated the styling and technology offerings, while also introducing the sporty RS appearance package. Despite declining sedan sales industry-wide, the ninth-generation Malibu maintains Chevrolet's presence in the mid-size sedan segment with competitive efficiency, technology, and value."
+    end_year: 2024
+    description: "The ninth-generation Malibu features sleek, coupe-like styling with significantly increased interior space compared to its predecessor. Built on GM's E2XX platform, it's notably lighter than the previous generation. Engine options have included a 1.5L turbocharged four-cylinder, 2.0L turbocharged four-cylinder, and for a time, a 1.8L hybrid system delivering impressive fuel economy. The interior offers modern technology including an available 8-inch touchscreen with smartphone integration. A refresh in 2019 updated the styling and technology offerings, while also introducing the sporty RS appearance package. Production ended in North America in November 2024 as the Fairfax Assembly plant was being retooled for the second-generation Chevrolet Bolt. The Malibu XL continues production in China."

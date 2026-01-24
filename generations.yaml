@@ -7,32 +7,52 @@ generations:
     end_year: 1967
     description: "The original Malibu was introduced as a top-line trim level of the Chevrolet Chevelle, featuring more upscale appointments and styling. Available in sedan, coupe, convertible, and wagon body styles, it offered various engine options including the legendary SS performance variants with big-block V8s. This generation established the Malibu nameplate and its reputation for combining mainstream appeal with available performance options."
 
-  - name: "Second through Fourth Generations (as Chevelle Malibu)"
+  - name: "Second Generation"
     start_year: 1968
+    end_year: 1972
+    description: "The Malibu continued as a trim level of the Chevelle with a complete restyling for 1968. The second generation featured semi-fastback rooflines on two-door models and a new instrument panel similar to the Camaro design. The 307 cubic-inch V8 was introduced as the base V8, while the top option remained the 350 cubic-inch V8. The Concours luxury option was new for 1968, offering upgraded cloth or vinyl bench seats, woodgrain trim, and other premium appointments."
+
+  - name: "Third Generation"
+    start_year: 1973
+    end_year: 1977
+    description: "The Chevelle was redesigned for the 1973 model year with Colonnade styling featuring side pillars and frameless door windows. Models included the base Deluxe, mid-range Malibu and Malibu SS, and the top-line Laguna. For 1974, the Deluxe was dropped and the Malibu became the entry-level Chevelle. The Malibu Classic was introduced in 1976 with stacked rectangular headlights, while the Laguna S-3 replaced the SS and proved particularly successful in NASCAR competition."
+
+  - name: "Fourth Generation"
+    start_year: 1978
     end_year: 1983
-    description: "Through the 1970s, the Malibu continued as a trim level of the Chevelle before eventually becoming its own model line as the Chevelle name was phased out. These generations saw the Malibu transition from a muscle car era icon to a more efficient mid-size offering in response to changing market conditions. The final rear-wheel drive generation ended production in 1983, with various sedans, coupes, and wagons offered throughout this period."
+    description: "For 1978, the Malibu name replaced the Chevelle name on a downsized and more efficient platform. This generation was over a foot shorter than previous versions while offering increased trunk space and interior room. It introduced the Chevrolet 90-degree V6 engine family with options ranging from a 200 cubic-inch V6 to a 305 cubic-inch V8. The Malibu Classic Landau featured a two-tone paint job and vinyl top. For 1982, the design was facelifted with more squared-off styling and quad headlights. The four-door Malibu was commonly used in fleet and law enforcement service."
 
   - name: "Fifth Generation"
     start_year: 1997
+    end_year: 2003
+    description: "After a 14-year hiatus, the Malibu returned as a front-wheel drive mid-size sedan based on GM's N-body platform. Designed to compete with the Toyota Camry and Honda Accord, it featured conservative styling and a focus on value. Initially powered by a 2.4L four-cylinder or 3.1L V6 engine, it prioritized comfort and efficiency over performance. The 1997-1999 models had a silver Malibu logo in the center grille, while 2000-2003 models featured the blue Chevrolet emblem. This generation helped reestablish the Malibu in the important mid-size sedan segment."
+
+  - name: "Fifth Generation Classic"
+    start_year: 2004
     end_year: 2005
-    description: "After a 14-year hiatus, the Malibu returned as a front-wheel drive mid-size sedan based on GM's N-body platform. Designed to compete with the Toyota Camry and Honda Accord, it featured conservative styling and a focus on value. Initially powered by a 2.4L four-cylinder or 3.1L V6 engine, it prioritized comfort and efficiency over performance. The generation was renamed Classic from 2004-2005 after the introduction of the new Epsilon platform Malibu. Despite modest sales success, this generation helped reestablish the Malibu in the important mid-size sedan segment."
+    description: "When a new Malibu was introduced on the Epsilon platform for 2004, the N-body Malibu was renamed Chevrolet Classic and remained in production for the 2004 and 2005 model years. Production was restricted to rental car companies and fleet orders, with production ending in April 2005. The 2.4L inline-four was dropped after 2000, with a 2.2L Ecotec four-cylinder reintroduced in 2004 on Classic models."
 
   - name: "Sixth Generation"
     start_year: 2004
     end_year: 2007
-    description: "The sixth-generation Malibu moved to GM's Epsilon platform and was available as both a traditional sedan and an extended-length Maxx hatchback variant. Engine options included a 2.2L four-cylinder and 3.5L V6, with a performance-oriented SS model featuring a 3.9L V6 producing 240 HP. Interior quality improved over its predecessor, though the design was criticized for being uninspiring. This generation represented Chevrolet's continued effort to compete in the mid-size segment while the unusual Maxx variant attempted to offer a European-inspired alternative body style."
+    description: "The sixth-generation Malibu moved to GM's Epsilon platform and was available as both a traditional sedan and an extended-length Maxx station wagon. Engine options included a 2.2L four-cylinder and 3.5L V6, with a performance-oriented SS model featuring a 3.9L V6 producing 240 horsepower. For 2006, a facelift removed the prominent chrome bar from the grille and made the grille smaller. The Malibu Maxx was discontinued after 2007, while the sedan continued as the Malibu Classic in 2008."
 
   - name: "Seventh Generation"
     start_year: 2008
     end_year: 2012
-    description: "The seventh-generation Malibu featured more distinctive styling and significant improvements in refinement and quality. Available only as a sedan, it won North American Car of the Year upon its introduction. Engine options included a 2.4L four-cylinder and 3.6L V6, with a mild hybrid system briefly offered. Interior quality and design took a major step forward, with a dual-cockpit layout and improved materials. This generation successfully improved the Malibu's reputation and competitiveness in the mid-size segment."
+    description: "The seventh-generation Malibu was extensively redesigned and reengineered, with styling by Bryan Nesbitt. It featured more distinctive styling and significant improvements in refinement and quality. Available only as a sedan, it won the North American Car of the Year award. Engine options included a 2.4L four-cylinder, 3.5L V6, and 3.6L V6, with a mild hybrid system (BAS) offered in 2008-2010. The interior featured a dual-cockpit layout and higher-quality materials. This generation successfully improved the Malibu's reputation and competitiveness in the mid-size segment."
 
   - name: "Eighth Generation"
     start_year: 2013
     end_year: 2015
-    description: "The short-lived eighth-generation Malibu featured more aerodynamic styling and reduced weight. Initially criticized for its tight rear seat room, a quick refresh for 2014 addressed this issue with revised rear seat packaging. Powertrain options included a 2.5L four-cylinder, 2.0L turbocharged four-cylinder, and a mild hybrid eAssist system. Despite technical improvements, this generation faced strong competition and was replaced after just three model years."
+    description: "The eighth-generation Malibu moved to GM's Epsilon II platform and debuted in Asia in late 2011, becoming a global vehicle. The 2013 Malibu featured more aerodynamic styling and reduced weight. Initially criticized for tight rear seat room, a 2014 refresh addressed this issue. Engine options included a 2.5L four-cylinder, 2.0L turbocharged four-cylinder, and a 2.4L mild hybrid eAssist system. In North America, the eighth-generation continued in 2016 as the Malibu Limited. In China, the eighth-generation remained in production alongside the ninth-generation until 2019."
 
   - name: "Ninth Generation"
     start_year: 2016
+    end_year: 2018
+    description: "The ninth-generation Malibu was unveiled at the 2015 New York International Auto Show and went on sale in late 2015 as a 2016 model year. Built on GM's E2XX platform, it featured sleek, coupe-like styling with a four-inch longer wheelbase creating significantly more interior space while being nearly 300 pounds lighter than the eighth generation. Engine options included a standard 1.5L turbocharged four-cylinder and optional 2.0L turbocharged four-cylinder. The ninth-generation also introduced the first hybrid version, a 1.8L hybrid model. The 2016-2018 period represents the original design before the mid-cycle facelift."
+
+  - name: "Ninth Generation (2019 Facelift)"
+    start_year: 2019
     end_year: 2024
-    description: "The ninth-generation Malibu features sleek, coupe-like styling with significantly increased interior space compared to its predecessor. Built on GM's E2XX platform, it's notably lighter than the previous generation. Engine options have included a 1.5L turbocharged four-cylinder, 2.0L turbocharged four-cylinder, and for a time, a 1.8L hybrid system delivering impressive fuel economy. The interior offers modern technology including an available 8-inch touchscreen with smartphone integration. A refresh in 2019 updated the styling and technology offerings, while also introducing the sporty RS appearance package. Production ended in North America in November 2024 as the Fairfax Assembly plant was being retooled for the second-generation Chevrolet Bolt. The Malibu XL continues production in China."
+    description: "Chevrolet updated the Malibu in 2018 for the 2019 model year with a new larger front grille split by a chrome bar and the Chevrolet bowtie. The rear received less significant changes. The Premier trim added LED headlamps while other trims retained halogen units. A new RS trim was introduced for a sportier appearance with a black grille, unique 18-inch wheels, and dual exhaust. The standard 1.5L turbocharged engine was paired with a CVT instead of the 6-speed automatic. Safety features were improved including Low Speed Forward Automatic Braking and IntelliBeam high-beam assist. The 2.0L turbocharged engine was discontinued after 2022, and the 2.0L gasoline engine was removed entirely for 2023. Production ended in North America in November 2024 as the Fairfax Assembly plant was retooled for the second-generation Chevrolet Bolt. The Malibu XL continues production in China."

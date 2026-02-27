@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     FRP: 2860
   response: 7E8044123011E
+- expected_values:
+    FRP: 2990
+  response: 7E8044123012B
+- expected_values:
+    FRP: 3080
+  response: '7E80441230134'

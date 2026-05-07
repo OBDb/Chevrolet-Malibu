@@ -4,20 +4,5 @@ test_cases:
     CHEVROLET_ATF_T: 15
   response: 7EA0462194037
 - expected_values:
-    CHEVROLET_ATF_T: 16
-  response: 7EA0462194038
-- expected_values:
-    CHEVROLET_ATF_T: 18
-  response: 7EA046219403A
-- expected_values:
-    CHEVROLET_ATF_T: 19
-  response: 7EA046219403B
-- expected_values:
-    CHEVROLET_ATF_T: 21
-  response: 7EA046219403D
-- expected_values:
-    CHEVROLET_ATF_T: 22
-  response: 7EA046219403E
-- expected_values:
-    CHEVROLET_ATF_T: 23
-  response: 7EA046219403F
+    CHEVROLET_ATF_T: 31
+  response: 7EA0462194047

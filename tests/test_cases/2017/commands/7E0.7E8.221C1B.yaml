@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221C1B
+test_cases:
+- expected_values:
+    CHEVROLET_EOP_CALC: 220
+  response: 7E804621C1B37
+- expected_values:
+    CHEVROLET_EOP_CALC: 224
+  response: 7E804621C1B38
+- expected_values:
+    CHEVROLET_EOP_CALC: 228
+  response: 7E804621C1B39
+- expected_values:
+    CHEVROLET_EOP_CALC: 232
+  response: 7E804621C1B3A
+- expected_values:
+    CHEVROLET_EOP_CALC: 236
+  response: 7E804621C1B3B

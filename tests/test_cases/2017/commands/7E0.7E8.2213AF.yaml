@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2213AF
+test_cases:
+- expected_values:
+    CHEVROLET_COOLING_FAN_MOTOR_CMD: 9.01961
+  response: 7E8046213AF17

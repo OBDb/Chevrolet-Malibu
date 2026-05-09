@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.223318
 test_cases:
 - expected_values:
+    CHEVROLET_EOP_CTRL_SOLENOID_VALVE_CMD: 0
+  response: 7E8046233183D
+- expected_values:
     CHEVROLET_EOP_CTRL_SOLENOID_VALVE_CMD: 1
   response: '7E80462331897'

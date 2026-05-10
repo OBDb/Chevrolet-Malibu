@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     CHEVROLET_EOP_ABS: 92
   response: '7E80462234417'
+- expected_values:
+    CHEVROLET_EOP_ABS: 96
+  response: '7E80462234418'
+- expected_values:
+    CHEVROLET_EOP_ABS: 376
+  response: 7E8046223445E
+- expected_values:
+    CHEVROLET_EOP_ABS: 380
+  response: 7E8046223445F
+- expected_values:
+    CHEVROLET_EOP_ABS: 384
+  response: '7E80462234460'
+- expected_values:
+    CHEVROLET_EOP_ABS: 388
+  response: '7E80462234461'
+- expected_values:
+    CHEVROLET_EOP_ABS: 412
+  response: '7E80462234467'
+- expected_values:
+    CHEVROLET_EOP_ABS: 432
+  response: 7E8046223446C
+- expected_values:
+    CHEVROLET_EOP_ABS: 472
+  response: '7E80462234476'
+- expected_values:
+    CHEVROLET_EOP_ABS: 536
+  response: '7E80462234486'

@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221C1B
 test_cases:
 - expected_values:
-    CHEVROLET_EOP_CALC: 184
-  response: 7E804621C1B2E
+    CHEVROLET_EOP_CALC: 0
+  response: 7E804621C1B00
 - expected_values:
     CHEVROLET_EOP_CALC: 428
   response: 7E804621C1B6B

@@ -16,6 +16,9 @@ test_cases:
     CHEVROLET_TOTAL_MISFIRE: 8
   response: '7E80462120008'
 - expected_values:
+    CHEVROLET_TOTAL_MISFIRE: 10
+  response: 7E8046212000A
+- expected_values:
     CHEVROLET_TOTAL_MISFIRE: 12
   response: 7E8046212000C
 - expected_values:

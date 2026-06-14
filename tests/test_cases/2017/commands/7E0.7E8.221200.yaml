@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     CHEVROLET_TOTAL_MISFIRE: 16
   response: '7E80462120010'
+- expected_values:
+    CHEVROLET_TOTAL_MISFIRE: 128
+  response: '7E80462120080'

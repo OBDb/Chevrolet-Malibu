@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.222344
 test_cases:
 - expected_values:
-    CHEVROLET_EOP_ABS: 100
-  response: '7E80462234419'
+    CHEVROLET_EOP_ABS: 96
+  response: '7E80462234418'
 - expected_values:
     CHEVROLET_EOP_ABS: 560
   response: 7E8046223448C

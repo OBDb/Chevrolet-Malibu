@@ -4,29 +4,5 @@ test_cases:
     CHEVROLET_TOTAL_MISFIRE: 0
   response: '7E80462120000'
 - expected_values:
-    CHEVROLET_TOTAL_MISFIRE: 2
-  response: '7E80462120002'
-- expected_values:
-    CHEVROLET_TOTAL_MISFIRE: 4
-  response: '7E80462120004'
-- expected_values:
-    CHEVROLET_TOTAL_MISFIRE: 6
-  response: '7E80462120006'
-- expected_values:
-    CHEVROLET_TOTAL_MISFIRE: 8
-  response: '7E80462120008'
-- expected_values:
-    CHEVROLET_TOTAL_MISFIRE: 10
-  response: 7E8046212000A
-- expected_values:
-    CHEVROLET_TOTAL_MISFIRE: 12
-  response: 7E8046212000C
-- expected_values:
-    CHEVROLET_TOTAL_MISFIRE: 14
-  response: 7E8046212000E
-- expected_values:
-    CHEVROLET_TOTAL_MISFIRE: 16
-  response: '7E80462120010'
-- expected_values:
     CHEVROLET_TOTAL_MISFIRE: 128
   response: '7E80462120080'

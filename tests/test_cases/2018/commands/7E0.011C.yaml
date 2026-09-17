@@ -1,0 +1,8 @@
+command_id: 7E0.011C
+test_cases:
+- expected_values:
+    OBDSUP: JOBD & EOBD
+  response: |-
+    7E803411C0CAAAAAAAA
+    > DA11.2AF111.223635|fc=1,c=14
+    CAN ERROR

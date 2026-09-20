@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2213AF
+test_cases:
+- expected_values:
+    CHEVROLET_COOLING_FAN_MOTOR_CMD: 0
+  response: 7E8046213AF00
+- expected_values:
+    CHEVROLET_COOLING_FAN_MOTOR_CMD: 47.45098
+  response: 7E8046213AF79
+- expected_values:
+    CHEVROLET_COOLING_FAN_MOTOR_CMD: 47.84314
+  response: 7E8046213AF7A

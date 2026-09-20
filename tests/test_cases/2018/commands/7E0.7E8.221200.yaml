@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221200
+test_cases:
+- expected_values:
+    CHEVROLET_TOTAL_MISFIRE: 0
+  response: |-
+    7E80462120000AAAAAA
+    > 7E0.7E8.22C902
+    CAN ERROR
+- expected_values:
+    CHEVROLET_TOTAL_MISFIRE: 0
+  response: |-
+    7E80462120000AAAAAA
+    > 7E7.7EF.22419B
+    CAN ERROR
+- expected_values:
+    CHEVROLET_TOTAL_MISFIRE: 0
+  response: |-
+    7E80462120000AAAAAA
+    > 7E7.7EF.224234
+    CAN ERROR
+- expected_values:
+    CHEVROLET_TOTAL_MISFIRE: 0
+  response: |-
+    7E80462120000AAAAAA
+    > DA11.2AF111.2230AE|fc=1,c=14
+    CAN ERROR

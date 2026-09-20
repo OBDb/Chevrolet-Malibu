@@ -1,0 +1,8 @@
+command_id: 7E0.0131
+test_cases:
+- expected_values:
+    CLR_DIST: 22058
+  response: |-
+    7E8044131562AAAAAAA
+    > 7E7.7EF.22421E
+    CAN ERROR

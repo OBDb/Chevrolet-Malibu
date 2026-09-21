@@ -1,0 +1,11 @@
+command_id: 7E0.0104
+test_cases:
+- expected_values:
+    LOAD_PCT: 42.7451
+  response: |-
+    7E803410449AAAAAAAA
+    7E80341045EAAAAAAAA
+    7E803410462AAAAAAAA
+    7E80341046DAAAAAAAA
+    > 7E0.7E8.223812
+    CAN ERROR

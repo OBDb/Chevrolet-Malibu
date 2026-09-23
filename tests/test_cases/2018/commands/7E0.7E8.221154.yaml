@@ -1,0 +1,44 @@
+command_id: 7E0.7E8.221154
+test_cases:
+- expected_values:
+    CHEVROLET_EOT_CALC: 85
+  response: |-
+    7E8046211547DAAAAAA
+    > 7E7.7EF.224188
+    CAN ERROR
+- expected_values:
+    CHEVROLET_EOT_CALC: 86
+  response: |-
+    7E8046211547EAAAAAA
+    > 7E7.7EF.224193
+    CAN ERROR
+- expected_values:
+    CHEVROLET_EOT_CALC: 86
+  response: |-
+    7E8046211547EAAAAAA
+    > 7E7.7EF.224201
+    CAN ERROR
+- expected_values:
+    CHEVROLET_EOT_CALC: 86
+  response: |-
+    7E8046211547EAAAAAA
+    > 7E7.7EF.22421E
+    CAN ERROR
+- expected_values:
+    CHEVROLET_EOT_CALC: 87
+  response: |-
+    7E8046211547FAAAAAA
+    > 7E7.7EF.22420C
+    CAN ERROR
+- expected_values:
+    CHEVROLET_EOT_CALC: 87
+  response: |-
+    7E8046211547FAAAAAA
+    > 7E7.7EF.22422B
+    CAN ERROR
+- expected_values:
+    CHEVROLET_EOT_CALC: 89
+  response: |-
+    7E80462115481AAAAAA
+    > DA11.2AF111.221198|fc=1,c=14
+    CAN ERROR

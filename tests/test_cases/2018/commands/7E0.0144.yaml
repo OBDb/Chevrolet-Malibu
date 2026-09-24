@@ -1,0 +1,10 @@
+command_id: 7E0.0144
+test_cases:
+- expected_values:
+    EQ_RAT: 1.00002
+  response: |-
+    7E80441447A40AAAAAA
+    7E80441447B00AAAAAA
+    7E80441448000AAAAAA
+    > DA11.2AF111.2230AD|fc=1,c=14
+    CAN ERROR

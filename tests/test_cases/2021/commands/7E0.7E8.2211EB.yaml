@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211EB
+test_cases:
+- expected_values:
+    CHEVROLET_MISFIRES_C6_CUR: 0
+  response: 7E8046211EB00

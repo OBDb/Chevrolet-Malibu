@@ -1,0 +1,38 @@
+command_id: 7E0.7E8.223318
+test_cases:
+- expected_values:
+    CHEVROLET_EOP_CTRL_SOLENOID_VALVE_CMD: 1
+  response: |-
+    7E80462331897AAAAAA
+    > 7E7.7EF.224204
+    CAN ERROR
+- expected_values:
+    CHEVROLET_EOP_CTRL_SOLENOID_VALVE_CMD: 1
+  response: |-
+    7E80462331897AAAAAA
+    > 7E7.7EF.22421B
+    CAN ERROR
+- expected_values:
+    CHEVROLET_EOP_CTRL_SOLENOID_VALVE_CMD: 1
+  response: |-
+    7E80462331897AAAAAA
+    > 7E7.7EF.22422B
+    CAN ERROR
+- expected_values:
+    CHEVROLET_EOP_CTRL_SOLENOID_VALVE_CMD: 1
+  response: |-
+    7E80462331897AAAAAA
+    > DA11.221206|fc=1,c=14
+    CAN ERROR
+- expected_values:
+    CHEVROLET_EOP_CTRL_SOLENOID_VALVE_CMD: 1
+  response: |-
+    7E80462331897AAAAAA
+    > DA11.2220E3|fc=1,c=14
+    CAN ERROR
+- expected_values:
+    CHEVROLET_EOP_CTRL_SOLENOID_VALVE_CMD: 1
+  response: |-
+    7E80462331897AAAAAA
+    > DA11.2AF111.2220F9|fc=1,c=14
+    CAN ERROR

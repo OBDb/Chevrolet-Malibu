@@ -1,0 +1,20 @@
+command_id: 7E2.7EA.221991|fc=1
+test_cases:
+- expected_values:
+    CHEVROLET_TC_SLIP_VSS_V2: 30.375
+  response: 7EA0562199100F3
+- expected_values:
+    CHEVROLET_TC_SLIP_VSS_V2: 127.125
+  response: 7EA0562199103F9
+- expected_values:
+    CHEVROLET_TC_SLIP_VSS_V2: 682.125
+  response: 7EA056219911551
+- expected_values:
+    CHEVROLET_TC_SLIP_VSS_V2: 686.875
+  response: 7EA056219911577
+- expected_values:
+    CHEVROLET_TC_SLIP_VSS_V2: -149.875
+  response: 7EA05621991FB51
+- expected_values:
+    CHEVROLET_TC_SLIP_VSS_V2: -3
+  response: 7EA05621991FFE8

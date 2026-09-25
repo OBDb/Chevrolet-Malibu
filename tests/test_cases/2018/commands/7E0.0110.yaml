@@ -1,0 +1,11 @@
+command_id: 7E0.0110
+test_cases:
+- expected_values:
+    MAF: 13.09
+  response: |-
+    7E80441100198AAAAAA
+    7E804411001F1AAAAAA
+    7E804411004A3AAAAAA
+    7E8044110051DAAAAAA
+    > 7E7.7EF.22423E
+    CAN ERROR

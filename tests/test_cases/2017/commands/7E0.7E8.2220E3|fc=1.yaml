@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2220E3|fc=1
+test_cases:
+- expected_values:
+    CHEVROLET_BP_ACT_V2: 0
+  response: 7E8056220E30000
+- expected_values:
+    CHEVROLET_BP_ACT_V2: 0.04
+  response: 7E8056220E30004
+- expected_values:
+    CHEVROLET_BP_ACT_V2: 0.18
+  response: 7E8056220E30012
+- expected_values:
+    CHEVROLET_BP_ACT_V2: 0.86
+  response: 7E8056220E30056
+- expected_values:
+    CHEVROLET_BP_ACT_V2: 1.23
+  response: 7E8056220E3007B
+- expected_values:
+    CHEVROLET_BP_ACT_V2: 9.93
+  response: 7E8056220E303E1

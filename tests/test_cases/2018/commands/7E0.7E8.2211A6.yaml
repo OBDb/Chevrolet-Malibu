@@ -1,0 +1,38 @@
+command_id: 7E0.7E8.2211A6
+test_cases:
+- expected_values:
+    CHEVROLET_KNOCK_RETARD: 0
+  response: |-
+    7E8046211A600AAAAAA
+    > 7E4.7EC.2243AF
+    CAN ERROR
+- expected_values:
+    CHEVROLET_KNOCK_RETARD: 0
+  response: |-
+    7E8046211A600AAAAAA
+    > 7E7.7EF.224199
+    CAN ERROR
+- expected_values:
+    CHEVROLET_KNOCK_RETARD: 0
+  response: |-
+    7E8046211A600AAAAAA
+    > 7E7.7EF.224222
+    CAN ERROR
+- expected_values:
+    CHEVROLET_KNOCK_RETARD: 0
+  response: |-
+    7E8046211A600AAAAAA
+    > 7E7.7EF.224225
+    CAN ERROR
+- expected_values:
+    CHEVROLET_KNOCK_RETARD: 0
+  response: |-
+    7E8046211A600AAAAAA
+    > 7E7.7EF.224238
+    CAN ERROR
+- expected_values:
+    CHEVROLET_KNOCK_RETARD: 0
+  response: |-
+    7E8046211A600AAAAAA
+    > DA11.221208|fc=1,c=14
+    CAN ERROR

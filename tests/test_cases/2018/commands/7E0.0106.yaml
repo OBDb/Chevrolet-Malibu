@@ -1,0 +1,10 @@
+command_id: 7E0.0106
+test_cases:
+- expected_values:
+    SHRTFT1: -1.5625
+  response: |-
+    7E803410678AAAAAAAA
+    7E803410679AAAAAAAA
+    7E80341067EAAAAAAAA
+    > 7E0.7E8.222491
+    CAN ERROR

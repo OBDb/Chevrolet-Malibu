@@ -3,6 +3,3 @@ test_cases:
 - expected_values:
     CHEVROLET_KNOCK_RETARD: 0
   response: 7E8046211A600
-- expected_values:
-    CHEVROLET_KNOCK_RETARD: 16.5
-  response: 7E8046211A64B

@@ -1,0 +1,9 @@
+command_id: 7E0.0105
+test_cases:
+- expected_values:
+    ECT: 83
+  response: |-
+    7E80341057AAAAAAAAA
+    7E80341057BAAAAAAAA
+    > 7E7.7EF.22418E
+    CAN ERROR

@@ -1,0 +1,38 @@
+command_id: 7E0.7E8.2211EA
+test_cases:
+- expected_values:
+    CHEVROLET_MISFIRES_C5_CUR: 0
+  response: |-
+    7E8046211EA00AAAAAA
+    > 7E7.7EF.224190
+    CAN ERROR
+- expected_values:
+    CHEVROLET_MISFIRES_C5_CUR: 0
+  response: |-
+    7E8046211EA00AAAAAA
+    > 7E7.7EF.224229
+    CAN ERROR
+- expected_values:
+    CHEVROLET_MISFIRES_C5_CUR: 0
+  response: |-
+    7E8046211EA00AAAAAA
+    > 7E7.7EF.224235
+    CAN ERROR
+- expected_values:
+    CHEVROLET_MISFIRES_C5_CUR: 0
+  response: |-
+    7E8046211EA00AAAAAA
+    > DA11.222345|fc=1,c=14
+    CAN ERROR
+- expected_values:
+    CHEVROLET_MISFIRES_C5_CUR: 0
+  response: |-
+    7E8046211EA00AAAAAA
+    > DA11.2AF111.22005C|fc=1,c=14
+    CAN ERROR
+- expected_values:
+    CHEVROLET_MISFIRES_C5_CUR: 0
+  response: |-
+    7E8046211EA00AAAAAA
+    > DA11.2AF111.221196|fc=1,c=14
+    CAN ERROR

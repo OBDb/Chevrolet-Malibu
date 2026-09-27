@@ -1,0 +1,53 @@
+command_id: 7E0.7E8.2212D9
+test_cases:
+- expected_values:
+    CHEVROLET_TOTAL_KNOCK_RETARD: 0.45
+  response: |-
+    7E8046212D900AAAAAA
+    7E8046212D901AAAAAA
+    > 7E0.7E8.22248F
+    CAN ERROR
+- expected_values:
+    CHEVROLET_TOTAL_KNOCK_RETARD: 0
+  response: |-
+    7E8046212D900AAAAAA
+    > 7E0.7E8.2211EB
+    7E8046211EB00AAAAAA
+    > 7E0.2211A1
+    7E8056211A11D45AAAA
+- expected_values:
+    CHEVROLET_TOTAL_KNOCK_RETARD: 0
+  response: |-
+    7E8046212D900AAAAAA
+    > 7E0.7E8.22248E
+    CAN ERROR
+- expected_values:
+    CHEVROLET_TOTAL_KNOCK_RETARD: 0
+  response: |-
+    7E8046212D900AAAAAA
+    > 7E4.7EC.2243A5
+    CAN ERROR
+- expected_values:
+    CHEVROLET_TOTAL_KNOCK_RETARD: 0
+  response: |-
+    7E8046212D900AAAAAA
+    > 7E7.7EF.224192
+    CAN ERROR
+- expected_values:
+    CHEVROLET_TOTAL_KNOCK_RETARD: 0
+  response: |-
+    7E8046212D900AAAAAA
+    > 7E7.7EF.224229
+    CAN ERROR
+- expected_values:
+    CHEVROLET_TOTAL_KNOCK_RETARD: 0
+  response: |-
+    7E8046212D900AAAAAA
+    > DA11.2AF111.22303A|fc=1,c=14
+    CAN ERROR
+- expected_values:
+    CHEVROLET_TOTAL_KNOCK_RETARD: 0
+  response: |-
+    7E8046212D900AAAAAA
+    > DACB.222B43
+    CAN ERROR

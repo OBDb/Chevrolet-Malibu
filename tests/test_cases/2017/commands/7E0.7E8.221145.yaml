@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221145
+test_cases:
+- expected_values:
+    CHEVROLET_HEATED_OXYGEN_SENS: 23
+  response: '7E80462114517'
+- expected_values:
+    CHEVROLET_HEATED_OXYGEN_SENS: 136
+  response: '7E80462114588'
+- expected_values:
+    CHEVROLET_HEATED_OXYGEN_SENS: 185
+  response: 7E804621145B9
+- expected_values:
+    CHEVROLET_HEATED_OXYGEN_SENS: 186
+  response: 7E804621145BA
+- expected_values:
+    CHEVROLET_HEATED_OXYGEN_SENS: 195
+  response: 7E804621145C3

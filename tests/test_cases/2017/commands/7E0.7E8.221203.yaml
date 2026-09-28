@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     CHEVROLET_MIS_HIST_3: 2
   response: '7E8056212030002'
+- expected_values:
+    CHEVROLET_MIS_HIST_3: 3
+  response: '7E8056212030003'
+- expected_values:
+    CHEVROLET_MIS_HIST_3: 5
+  response: '7E8056212030005'

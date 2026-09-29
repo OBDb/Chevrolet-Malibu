@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221201
 test_cases:
 - expected_values:
-    CHEVROLET_MIS_HIST_1: 0
+    CHEVROLET_MIS_HISTORY_1: 0
   response: '7E8056212010000'
 - expected_values:
-    CHEVROLET_MIS_HIST_1: 2
+    CHEVROLET_MIS_HISTORY_1: 2
   response: '7E8056212010002'

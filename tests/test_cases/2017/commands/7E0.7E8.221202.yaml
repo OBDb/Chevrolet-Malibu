@@ -1,17 +1,17 @@
 command_id: 7E0.7E8.221202
 test_cases:
 - expected_values:
-    CHEVROLET_MIS_HISTORY_2: 0
+    MALIBU_MIS_HISTORY_2: 0
   response: '7E8056212020000'
 - expected_values:
-    CHEVROLET_MIS_HISTORY_2: 2
+    MALIBU_MIS_HISTORY_2: 2
   response: '7E8056212020002'
 - expected_values:
-    CHEVROLET_MIS_HISTORY_2: 3
+    MALIBU_MIS_HISTORY_2: 3
   response: '7E8056212020003'
 - expected_values:
-    CHEVROLET_MIS_HISTORY_2: 4
+    MALIBU_MIS_HISTORY_2: 4
   response: '7E8056212020004'
 - expected_values:
-    CHEVROLET_MIS_HISTORY_2: 7
+    MALIBU_MIS_HISTORY_2: 7
   response: '7E8056212020007'

@@ -1,32 +1,32 @@
 command_id: 7E0.7E8.221205
 test_cases:
 - expected_values:
-    CHEVROLET_MISFIRES_C2_CUR: 0
+    MALIBU_MISFIRES_C2_CUR: 0
   response: '7E80462120500'
 - expected_values:
-    CHEVROLET_MISFIRES_C2_CUR: 1
+    MALIBU_MISFIRES_C2_CUR: 1
   response: '7E80462120501'
 - expected_values:
-    CHEVROLET_MISFIRES_C2_CUR: 2
+    MALIBU_MISFIRES_C2_CUR: 2
   response: '7E80462120502'
 - expected_values:
-    CHEVROLET_MISFIRES_C2_CUR: 3
+    MALIBU_MISFIRES_C2_CUR: 3
   response: '7E80462120503'
 - expected_values:
-    CHEVROLET_MISFIRES_C2_CUR: 4
+    MALIBU_MISFIRES_C2_CUR: 4
   response: '7E80462120504'
 - expected_values:
-    CHEVROLET_MISFIRES_C2_CUR: 6
+    MALIBU_MISFIRES_C2_CUR: 6
   response: '7E80462120506'
 - expected_values:
-    CHEVROLET_MISFIRES_C2_CUR: 7
+    MALIBU_MISFIRES_C2_CUR: 7
   response: '7E80462120507'
 - expected_values:
-    CHEVROLET_MISFIRES_C2_CUR: 8
+    MALIBU_MISFIRES_C2_CUR: 8
   response: '7E80462120508'
 - expected_values:
-    CHEVROLET_MISFIRES_C2_CUR: 10
+    MALIBU_MISFIRES_C2_CUR: 10
   response: 7E8046212050A
 - expected_values:
-    CHEVROLET_MISFIRES_C2_CUR: 14
+    MALIBU_MISFIRES_C2_CUR: 14
   response: 7E8046212050E

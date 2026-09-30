@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.221940
 test_cases:
 - expected_values:
-    CHEVROLET_ATF_T_VAR_1: 67
+    MALIBU_ATF_T_VAR_1: 67
   response: |-
     7E8046219406BAAAAAA
     7EA046219406CAAAAAA
@@ -10,7 +10,7 @@ test_cases:
     > 7E7.7EF.22422C
     CAN ERROR
 - expected_values:
-    CHEVROLET_ATF_T_VAR_1: 66
+    MALIBU_ATF_T_VAR_1: 66
   response: |-
     7EA046219406AAAAAAA
     7EA046219406BAAAAAA

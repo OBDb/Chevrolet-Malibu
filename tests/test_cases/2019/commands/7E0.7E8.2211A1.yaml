@@ -1,17 +1,17 @@
-command_id: 7E0.2211A1
+command_id: 7E0.7E8.2211A1
 test_cases:
 - expected_values:
-    CHEVROLET_RUNTM: 0
+    MALIBU_RUNTM: 0
   response: 7E8056211A10000
 - expected_values:
-    CHEVROLET_RUNTM: 1152
+    MALIBU_RUNTM: 1152
   response: 7E8056211A10480
 - expected_values:
-    CHEVROLET_RUNTM: 1256
+    MALIBU_RUNTM: 1256
   response: 7E8056211A104E8
 - expected_values:
-    CHEVROLET_RUNTM: 1335
+    MALIBU_RUNTM: 1335
   response: 7E8056211A10537
 - expected_values:
-    CHEVROLET_RUNTM: 1347
+    MALIBU_RUNTM: 1347
   response: 7E8056211A10543

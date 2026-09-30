@@ -1,4 +1,427 @@
 { "commands": [
-
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4005"}, "freq": 3600,
+  "signals": [
+    {"id": "MALIBU_TID_FL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front left tire sensor ID"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4006"}, "freq": 3600,
+  "signals": [
+    {"id": "MALIBU_TID_FR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front right tire sensor ID"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4007"}, "freq": 3600,
+  "signals": [
+    {"id": "MALIBU_TID_RR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear right tire sensor ID"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4008"}, "freq": 3600,
+  "signals": [
+    {"id": "MALIBU_TID_RL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear left tire sensor ID"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5005"}, "freq": 15,
+  "signals": [
+    {"id": "MALIBU_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5006"}, "freq": 15,
+  "signals": [
+    {"id": "MALIBU_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5007"}, "freq": 15,
+  "signals": [
+    {"id": "MALIBU_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5008"}, "freq": 15,
+  "signals": [
+    {"id": "MALIBU_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "000D"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2014] },
+  "signals": [
+    {"id": "MALIBU_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "0010"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_MAF", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "gramsPerSecond" }, "name": "Mass airflow sensor"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "002F"}, "freq": 30, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0042"}, "freq": 5,
+  "signals": [
+    {"id": "MALIBU_CTRL_MODULE_V", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "Control module voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0052"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_ETHANOL_CONTENT_FUEL", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Ethanol content of fuel"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "005C"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_EOT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "005E"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "mul": 500, "div": 10000, "unit": "liters" }, "name": "Fuel consumption rate"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "009D"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_TOTAL_FUEL_CONSUMPTION_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 1310.7, "mul": 200, "div": 10000, "unit": "gramsPerSecond" }, "name": "Total fuel consumption rate"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1141"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_IGN_1_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Ignition 1 voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1145"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_HEATED_OXYGEN_SENS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "millivolts" }, "name": "Heated oxygen sensor"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "114B"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_EGR_V", "path": "Engine", "fmt": { "len": 8, "max": 5, "div": 51, "unit": "volts" }, "name": "Exhaust gas recirculation voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1154"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_EOT_CALC", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "115C"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_EOP_2", "path": "Engine", "fmt": { "len": 8, "max": 131.39, "min": -21.6, "mul": 3, "div": 5, "add": -21.6, "nullmax": 131.39, "unit": "psi" }, "name": "Engine oil pressure 2", "description": "Reads 0 psi at the sensor's zero-pressure floor, raw 36; the 0.6 psi slope is not yet checked against a gauge."}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1161"}, "freq": 5,
+  "signals": [
+    {"id": "MALIBU_AAT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Outside air temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1170"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_EVAPORATIVE", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2.55, "unit": "percent" }, "name": "Evaporative emissions purge"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1172"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_IDLE_AIR_CTRL_POS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Idle air control position"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1192"}, "freq": 0.25,
+  "signals": [
+    {"id": "MALIBU_DES_IDLE_SPD", "path": "Movement", "fmt": { "len": 8, "max": 3187.5, "mul": 12.5, "unit": "rpm" }, "name": "Desired idle speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1193"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_INJ_WIDTH_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 1000, "div": 65.535, "unit": "milliseconds" }, "name": "Injector pulse width, cylinder 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1194"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_FUEL_INJECTION_C2", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1195"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_FUEL_INJECTION_C3", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1196"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_FUEL_INJECTION_C4", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1197"}, "freq": 1, "filter": { "to": 2012 },
+  "signals": [
+    {"id": "MALIBU_FUEL_INJECTION_C5", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 5"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1198"}, "freq": 1, "filter": { "to": 2012 },
+  "signals": [
+    {"id": "MALIBU_FUEL_INJECTION_C6", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "mul": 1000, "div": 65535, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 6"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "119D"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_BAROMETRIC_P", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "119E"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_AIR_FUEL_RAT_CMD", "path": "Engine", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "scalar" }, "name": "Air/fuel ratio, commanded"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "119F"}, "freq": 30,
+  "signals": [
+    {"id": "MALIBU_REMAINING_OIL_LIFE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Remaining oil life"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A1"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2014] },
+  "signals": [
+    {"id": "MALIBU_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A6"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_KNOCK_RETARD", "path": "Engine", "fmt": { "len": 8, "max": 56.1, "mul": 22, "div": 100, "unit": "degrees" }, "name": "Knock retard"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11EA"}, "freq": 1, "filter": { "to": 2012 },
+  "signals": [
+    {"id": "MALIBU_MISFIRES_C5_CUR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 5"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11EB"}, "freq": 1, "filter": { "to": 2012 },
+  "signals": [
+    {"id": "MALIBU_MISFIRES_C6_CUR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 6"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F8"}, "freq": 1, "filter": { "to": 2012 },
+  "signals": [
+    {"id": "MALIBU_MIS_HISTORY_5", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 5"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F9"}, "freq": 1, "filter": { "to": 2012 },
+  "signals": [
+    {"id": "MALIBU_MIS_HISTORY_6", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 6"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_TOTAL_MISFIRE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Total misfire"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1201"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_MIS_HISTORY_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1202"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_MIS_HISTORY_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1203"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_MIS_HISTORY_3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1204"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_MIS_HISTORY_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1205"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_MISFIRES_C2_CUR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1206"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_MISFIRES_C1_CUR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1207"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_MISFIRES_C3_CUR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1208"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_MISFIRES_C4_CUR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1251"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_BAROMETRIC_P_ALT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure, alternate"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "125D"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_KNOCK_RETARD_ALT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "degrees" }, "name": "Knock retard, alternate"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "125E"}, "freq": 3600,
+  "signals": [
+    {"id": "MALIBU_KNOCK_SENS_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock sensor active counter"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "12C3"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_INJECTOR_DUTY_CYCLE_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 983.025, "mul": 150, "div": 10000, "unit": "milliseconds" }, "name": "Injector duty cycle bank 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "12C4"}, "freq": 1, "filter": { "to": 2012 },
+  "signals": [
+    {"id": "MALIBU_INJECTOR_DUTY_CYCLE_BANK_2", "path": "Engine", "fmt": { "len": 16, "max": 983.025, "mul": 150, "div": 10000, "unit": "milliseconds" }, "name": "Injector duty cycle bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "12D9"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_TOTAL_KNOCK_RETARD", "path": "Engine", "fmt": { "len": 8, "max": 114.75, "mul": 45, "div": 100, "unit": "degrees" }, "name": "Total knock retard"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AF"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_COOLING_FAN_MOTOR_CMD", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Cooling fan motor command"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1538"}, "freq": 5,
+  "signals": [
+    {"id": "MALIBU_IAT_2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1564"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_AC_HIGH_SIDE_P", "path": "Engine", "fmt": { "len": 8, "max": 515.1, "mul": 2.02, "unit": "psi" }, "name": "Air conditioning high side pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "162F"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_BALANCE_RATE_CYL_1", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1630"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_BALANCE_RATE_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1631"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_BALANCE_RATE_CYL_3", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1632"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_BALANCE_RATE_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1633"}, "freq": 1, "filter": { "to": 2012 },
+  "signals": [
+    {"id": "MALIBU_BALANCE_RATE_CYL_5", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 5"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1634"}, "freq": 1, "filter": { "to": 2012 },
+  "signals": [
+    {"id": "MALIBU_BALANCE_RATE_CYL_6", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 6"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1940"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2019 },
+  "signals": [
+    {"id": "MALIBU_ATF_T_VAR_1", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 1", "suggestedMetric": "transmissionFluidTemperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1991"}, "freq": 0.25,
+  "signals": [
+    {"id": "MALIBU_TQ_CONV_CLU_SLIP_SPD", "path": "Movement", "fmt": { "len": 16, "max": 4095.875, "min": -4096, "div": 8, "sign": true, "unit": "rpm" }, "name": "Torque converter clutch slip speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1992"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_LAST_SHIFT_TIME", "path": "Engine", "fmt": { "len": 8, "max": 6.375, "div": 40, "unit": "seconds" }, "name": "Last shift time"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1993"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_1_2_SHIFT_TIME", "path": "Engine", "fmt": { "len": 8, "max": 6.375, "div": 40, "unit": "seconds" }, "name": "1-2 shift time"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1994"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_2_3_SHIFT_TIME", "path": "Engine", "fmt": { "len": 8, "max": 6.375, "div": 40, "unit": "seconds" }, "name": "2-3 shift time"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1995"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_3_4_SHIFT_TIME", "path": "Engine", "fmt": { "len": 8, "max": 6.375, "div": 40, "unit": "seconds" }, "name": "3-4 shift time"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1997"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_1_2_SHIFT_ERROR", "path": "Engine", "fmt": { "len": 8, "max": 6.375, "div": 40, "unit": "seconds" }, "name": "1-2 shift error"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1998"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_2_3_SHIFT_ERROR", "path": "Engine", "fmt": { "len": 8, "max": 6.375, "div": 40, "unit": "seconds" }, "name": "2-3 shift error"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1999"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_3_4_SHIFT_ERROR", "path": "Engine", "fmt": { "len": 8, "max": 6.375, "div": 40, "unit": "seconds" }, "name": "3-4 shift error"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "199A"}, "freq": 0.25,
+  "signals": [
+    {"id": "MALIBU_CURRENT_GEAR_7E0", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "199E"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_P_CTRL_SOLENOID_ACT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "milliamps" }, "name": "Pressure control solenoid current, actual"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "199F"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_P_CTRL_SOLENOID", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "milliamps" }, "name": "Pressure control solenoid current, reference"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "19DE"}, "freq": 0.25,
+  "signals": [
+    {"id": "MALIBU_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1C1B"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_EOP_CALC", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Calculated engine oil pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "203F"}, "freq": 0.25,
+  "signals": [
+    {"id": "MALIBU_ENG_TQ_7E0", "path": "Engine", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "newtonMeters" }, "name": "Engine torque"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "20AC"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_FUEL_INJECTION_C1", "path": "Fuel", "fmt": { "len": 16, "max": 65.535, "mul": 10, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "20E3"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_BP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure, actual"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2344"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_EOP_ABS", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Engine oil absolute pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2345"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_EOP", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Engine oil pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "248E"}, "freq": 15,
+  "signals": [
+    {"id": "MALIBU_TP_FL_7E0", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Left front tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "248F"}, "freq": 15,
+  "signals": [
+    {"id": "MALIBU_TP_FR_7E0", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Right front tire pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2490"}, "freq": 15,
+  "signals": [
+    {"id": "MALIBU_TP_RR_7E0", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Right rear tire pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2491"}, "freq": 15,
+  "signals": [
+    {"id": "MALIBU_TP_RL_7E0", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "psi" }, "name": "Left rear tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "30AD"}, "freq": 5,
+  "signals": [
+    {"id": "MALIBU_CHARGE_AIR_COOLER_T_SNS_1", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charge air cooler temperature sensor 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "30AE"}, "freq": 5,
+  "signals": [
+    {"id": "MALIBU_CHARGE_AIR_COOLER_T_SNS_2", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charge air cooler temperature sensor 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3201"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_CURRENT_GEAR_VAR_3", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear, variant 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "3218"}, "freq": 5,
+  "signals": [
+    {"id": "MALIBU_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "mul": 50, "div": 100, "unit": "celsius" }, "name": "Fuel temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "328A"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_BP_DES", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure, desired"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3318"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_EOP_CTRL_SOLENOID_VALVE_CMD", "path": "Engine", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Engine oil pressure control solenoid valve command"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "36A7"}, "freq": 30,
+  "signals": [
+    {"id": "MALIBU_AIRFILT_LIFE", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Air filter life remaining"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3812"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_COOLING_FAN_CMD", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Cooling fan command"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "4DC0"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_EO_LIFE_REMAINING", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine oil life remaining"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F432"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_FUEL_TANK_P", "path": "Fuel", "fmt": { "len": 16, "max": 1.96, "div": 33333.3333333333, "unit": "psi" }, "name": "Fuel tank pressure"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "1940"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2022 },
+  "signals": [
+    {"id": "MALIBU_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "1941"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_TRANS_ISS", "path": "Transmission", "fmt": { "len": 16, "max": 8191, "min": -8192, "div": 4, "sign": true, "unit": "rpm" }, "name": "Transmission input shaft speed, 2"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "1991"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_TC_SLIP_VSS", "path": "Movement", "fmt": { "len": 16, "max": 4095.875, "min": -4096, "mul": 1250, "div": 10000, "sign": true, "unit": "rpm" }, "name": "Torque converter clutch slip speed"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "199A"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_CURRENT_GEAR_VAR_2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear, variant 2"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "19D4"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_CLU_SLIP_C3_RING", "path": "Transmission", "fmt": { "len": 16, "max": 8191, "min": -8192, "div": 4, "sign": true, "unit": "rpm" }, "name": "Clutch slip, AT C3, ring"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "dbg": true, "cmd": {"22": "1B30"}, "freq": 0.25,
+  "signals": [
+    {"id": "MALIBU_CURRENT_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 252, "min": -3, "add": -3, "unit": "scalar" }, "name": "Current gear"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "280D"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2018 },
+  "signals": [
+    {"id": "MALIBU_ATF_T_VAR_6", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 6", "suggestedMetric": "transmissionFluidTemperature"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "2851"}, "freq": 1,
+  "signals": [
+    {"id": "MALIBU_CLU_SLIP_C1_RING", "path": "Transmission", "fmt": { "len": 16, "max": 8191, "min": -8192, "div": 4, "sign": true, "unit": "rpm" }, "name": "Clutch slip, AT C1, ring"}
+  ]},
+{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "dbg": true, "cmd": {"22": "295A"}, "freq": 5,
+  "signals": [
+    {"id": "MALIBU_TF_T_FLTED", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, filtered", "suggestedMetric": "transmissionFluidTemperature"}
+  ]}
 ]
 }

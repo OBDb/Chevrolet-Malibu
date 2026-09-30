@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221940
 test_cases:
 - expected_values:
-    CHEVROLET_ATF_T_VAR_1: 19
+    MALIBU_ATF_T_VAR_1: 19
   response: 7E8046219403B
 - expected_values:
-    CHEVROLET_ATF_T_VAR_1: 36
+    MALIBU_ATF_T_VAR_1: 36
   response: 7E8046219404C

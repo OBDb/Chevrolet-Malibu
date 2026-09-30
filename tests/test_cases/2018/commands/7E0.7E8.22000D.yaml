@@ -1,7 +1,7 @@
 command_id: 7E0.7E8.22000D
 test_cases:
 - expected_values:
-    CHEVROLET_VSS: 45
+    MALIBU_VSS: 45
   response: |-
     7E80462000D00AAAAAA
     7E80462000D03AAAAAA
@@ -17,7 +17,7 @@ test_cases:
     > DA18.221B30|fc=1,c=14
     CAN ERROR
 - expected_values:
-    CHEVROLET_VSS: 5
+    MALIBU_VSS: 5
   response: |-
     7E80462000D00AAAAAA
     7EA0462000D00AAAAAA
@@ -25,7 +25,7 @@ test_cases:
     > 7E4.7EC.224368
     CAN ERROR
 - expected_values:
-    CHEVROLET_VSS: 33
+    MALIBU_VSS: 33
   response: |-
     7E80462000D15AAAAAA
     7E80462000D15AAAAAA
@@ -44,7 +44,7 @@ test_cases:
     > DA11.222344|fc=1,c=14
     CAN ERROR
 - expected_values:
-    CHEVROLET_VSS: 21
+    MALIBU_VSS: 21
   response: |-
     7E80462000D16AAAAAA
     7EA0462000D16AAAAAA
@@ -58,7 +58,7 @@ test_cases:
     > 7E7.7EF.224199
     CAN ERROR
 - expected_values:
-    CHEVROLET_VSS: 42
+    MALIBU_VSS: 42
   response: |-
     7E80462000D2EAAAAAA
     7E80462000D3DAAAAAA
@@ -72,7 +72,7 @@ test_cases:
     > 7E7.7EF.22419E
     CAN ERROR
 - expected_values:
-    CHEVROLET_VSS: 92
+    MALIBU_VSS: 92
   response: |-
     7E80462000D5AAAAAAA
     7EA0462000D5AAAAAAA

@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.222344
 test_cases:
 - expected_values:
-    CHEVROLET_EOP_ABS: 92
+    MALIBU_EOP_ABS: 92
   response: '7E80462234417'
 - expected_values:
-    CHEVROLET_EOP_ABS: 676
+    MALIBU_EOP_ABS: 676
   response: 7E804622344A9

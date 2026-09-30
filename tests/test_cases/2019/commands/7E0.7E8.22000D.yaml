@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22000D
 test_cases:
 - expected_values:
-    CHEVROLET_VSS: 0
+    MALIBU_VSS: 0
   response: 7E80462000D00
 - expected_values:
-    CHEVROLET_VSS: 57
+    MALIBU_VSS: 57
   response: 7E80462000D39
 - expected_values:
-    CHEVROLET_VSS: 127
+    MALIBU_VSS: 127
   response: 7E80462000D7F
 - expected_values:
-    CHEVROLET_VSS: 128
+    MALIBU_VSS: 128
   response: 7E80462000D80

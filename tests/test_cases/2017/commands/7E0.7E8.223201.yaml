@@ -1,20 +1,20 @@
 command_id: 7E0.7E8.223201
 test_cases:
 - expected_values:
-    CHEVROLET_CURRENT_GEAR_VAR_3: 0
+    MALIBU_CURRENT_GEAR_VAR_3: 0
   response: '7E80462320100'
 - expected_values:
-    CHEVROLET_CURRENT_GEAR_VAR_3: 1
+    MALIBU_CURRENT_GEAR_VAR_3: 1
   response: '7E80462320101'
 - expected_values:
-    CHEVROLET_CURRENT_GEAR_VAR_3: 2
+    MALIBU_CURRENT_GEAR_VAR_3: 2
   response: '7E80462320102'
 - expected_values:
-    CHEVROLET_CURRENT_GEAR_VAR_3: 3
+    MALIBU_CURRENT_GEAR_VAR_3: 3
   response: '7E80462320103'
 - expected_values:
-    CHEVROLET_CURRENT_GEAR_VAR_3: 4
+    MALIBU_CURRENT_GEAR_VAR_3: 4
   response: '7E80462320104'
 - expected_values:
-    CHEVROLET_CURRENT_GEAR_VAR_3: 5
+    MALIBU_CURRENT_GEAR_VAR_3: 5
   response: '7E80462320105'

@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2212D9
 test_cases:
 - expected_values:
-    CHEVROLET_TOTAL_KNOCK_RETARD: 0
+    MALIBU_TOTAL_KNOCK_RETARD: 0
   response: 7E8046212D900
 - expected_values:
-    CHEVROLET_TOTAL_KNOCK_RETARD: 17.1
+    MALIBU_TOTAL_KNOCK_RETARD: 17.1
   response: 7E8046212D926

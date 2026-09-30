@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.220052
 test_cases:
 - expected_values:
-    CHEVROLET_ETHANOL_CONTENT_FUEL: 9.80392
+    MALIBU_ETHANOL_CONTENT_FUEL: 9.80392
   response: '7E80462005219'

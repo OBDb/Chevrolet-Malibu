@@ -1,14 +1,14 @@
-command_id: 7E0.2211A1
+command_id: 7E0.7E8.2211A1
 test_cases:
 - expected_values:
-    CHEVROLET_RUNTM: 1979
+    MALIBU_RUNTM: 1979
   response: |-
     7E8056211A1079DAAAA
     7E8056211A107BBAAAA
     > DA28.224C2D|fc=1,c=14
     CAN ERROR
 - expected_values:
-    CHEVROLET_RUNTM: 2590
+    MALIBU_RUNTM: 2590
   response: |-
     7E8056211A109A6AAAA
     7E8056211A109C4AAAA
@@ -20,7 +20,7 @@ test_cases:
     > 7E7.7EF.22421E
     CAN ERROR
 - expected_values:
-    CHEVROLET_RUNTM: 2822
+    MALIBU_RUNTM: 2822
   response: |-
     7E8056211A10A30AAAA
     7E8056211A10A4FAAAA
@@ -43,7 +43,7 @@ test_cases:
     > DA11.2AF111.2230A9|fc=1,c=14
     CAN ERROR
 - expected_values:
-    CHEVROLET_RUNTM: 3521
+    MALIBU_RUNTM: 3521
   response: |-
     7E8056211A10D49AAAA
     7E8056211A10D67AAAA
@@ -53,7 +53,7 @@ test_cases:
     > 7E7.7EF.22420E
     CAN ERROR
 - expected_values:
-    CHEVROLET_RUNTM: 4878
+    MALIBU_RUNTM: 4878
   response: |-
     7E8056211A11296AAAA
     7E8056211A112B4AAAA
@@ -63,7 +63,7 @@ test_cases:
     > 7E7.7EF.224207
     CAN ERROR
 - expected_values:
-    CHEVROLET_RUNTM: 15886
+    MALIBU_RUNTM: 15886
   response: |-
     7E8056211A13D96AAAA
     7E8056211A13DB4AAAA

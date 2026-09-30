@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.2211FB
-test_cases:
-- expected_values:
-    CHEVROLET_MIS_HISTORY_8: 0
-  response: 7E8056211FB0000

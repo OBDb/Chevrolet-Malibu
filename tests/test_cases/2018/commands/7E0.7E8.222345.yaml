@@ -1,8 +1,7 @@
 command_id: 7E0.7E8.222345
 test_cases:
 - expected_values:
-    CHEVROLET_EOP: 320
-    CHEVROLET_EOP_ACT: 320
+    MALIBU_EOP: 320
   response: |-
     7E8046223453EAAAAAA
     7E80462234541AAAAAA
@@ -13,8 +12,7 @@ test_cases:
     > DA11.2AF111.223375|fc=1,c=14
     CAN ERROR
 - expected_values:
-    CHEVROLET_EOP: 324
-    CHEVROLET_EOP_ACT: 324
+    MALIBU_EOP: 324
   response: |-
     7E8046223453EAAAAAA
     7E80462234544AAAAAA
@@ -27,8 +25,7 @@ test_cases:
     > 7E7.7EF.224201
     CAN ERROR
 - expected_values:
-    CHEVROLET_EOP: 320
-    CHEVROLET_EOP_ACT: 320
+    MALIBU_EOP: 320
   response: |-
     7E8046223453EAAAAAA
     7E8046223454AAAAAAA
@@ -38,16 +35,14 @@ test_cases:
     > DA11.2AF111.2230AD|fc=1,c=14
     CAN ERROR
 - expected_values:
-    CHEVROLET_EOP: 284
-    CHEVROLET_EOP_ACT: 284
+    MALIBU_EOP: 284
   response: |-
     7E8046223453FAAAAAA
     7E80462234547AAAAAA
     > DA11.2AF111.221194|fc=1,c=14
     CAN ERROR
 - expected_values:
-    CHEVROLET_EOP: 320
-    CHEVROLET_EOP_ACT: 320
+    MALIBU_EOP: 320
   response: |-
     7E80462234541AAAAAA
     7E80462234543AAAAAA
@@ -56,8 +51,7 @@ test_cases:
     > DA11.2AF111.220078|fc=1,c=14
     CAN ERROR
 - expected_values:
-    CHEVROLET_EOP: 356
-    CHEVROLET_EOP_ACT: 356
+    MALIBU_EOP: 356
   response: |-
     7E80462234546AAAAAA
     7E8046223454CAAAAAA

@@ -1,20 +1,20 @@
 command_id: 7E0.7E8.2211A6
 test_cases:
 - expected_values:
-    CHEVROLET_KNOCK_RETARD: 0
+    MALIBU_KNOCK_RETARD: 0
   response: 7E8046211A600
 - expected_values:
-    CHEVROLET_KNOCK_RETARD: 0.22
+    MALIBU_KNOCK_RETARD: 0.22
   response: 7E8046211A601
 - expected_values:
-    CHEVROLET_KNOCK_RETARD: 0.44
+    MALIBU_KNOCK_RETARD: 0.44
   response: 7E8046211A602
 - expected_values:
-    CHEVROLET_KNOCK_RETARD: 0.88
+    MALIBU_KNOCK_RETARD: 0.88
   response: 7E8046211A604
 - expected_values:
-    CHEVROLET_KNOCK_RETARD: 5.72
+    MALIBU_KNOCK_RETARD: 5.72
   response: 7E8046211A61A
 - expected_values:
-    CHEVROLET_KNOCK_RETARD: 11.66
+    MALIBU_KNOCK_RETARD: 11.66
   response: 7E8046211A635

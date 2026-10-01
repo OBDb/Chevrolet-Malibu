@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E2", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4005"}, "freq": 3600,
   "signals": [
     {"id": "MALIBU_TID_FL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front left tire sensor ID"}

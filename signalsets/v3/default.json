@@ -3,35 +3,35 @@
     { "hdr": "7E2", "type": "transmission" }
   ],
   "commands": [
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4005"}, "freq": 3600,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "4005"}, "freq": 3600, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "MALIBU_TID_FL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front left tire sensor ID"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4006"}, "freq": 3600,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "4006"}, "freq": 3600, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "MALIBU_TID_FR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front right tire sensor ID"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4007"}, "freq": 3600,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "4007"}, "freq": 3600, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "MALIBU_TID_RR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear right tire sensor ID"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4008"}, "freq": 3600,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "4008"}, "freq": 3600, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "MALIBU_TID_RL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear left tire sensor ID"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5005"}, "freq": 15,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "5005"}, "freq": 15, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "MALIBU_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5006"}, "freq": 15,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "5006"}, "freq": 15, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "MALIBU_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5007"}, "freq": 15,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "5007"}, "freq": 15, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "MALIBU_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5008"}, "freq": 15,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "5008"}, "freq": 15, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "MALIBU_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
@@ -47,7 +47,7 @@
   "signals": [
     {"id": "MALIBU_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0042"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0042"}, "freq": 5, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "MALIBU_CTRL_MODULE_V", "path": "Engine", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "Control module voltage"}
   ]},
@@ -83,7 +83,7 @@
   "signals": [
     {"id": "MALIBU_EOT_CALC", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "115C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115C"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "MALIBU_EOP_2", "path": "Engine", "fmt": { "len": 8, "max": 131.39, "min": -21.6, "mul": 3, "div": 5, "add": -21.6, "nullmax": 131.39, "unit": "psi" }, "name": "Engine oil pressure 2", "description": "Reads 0 psi at the sensor's zero-pressure floor, raw 36; the 0.6 psi slope is not yet checked against a gauge."}
   ]},
@@ -395,7 +395,7 @@
   "signals": [
     {"id": "MALIBU_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "1941"}, "freq": 1,
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "1941"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "MALIBU_TRANS_ISS", "path": "Transmission", "fmt": { "len": 16, "max": 8191, "min": -8192, "div": 4, "sign": true, "unit": "rpm" }, "name": "Transmission input shaft speed, 2"}
   ]},
@@ -407,7 +407,7 @@
   "signals": [
     {"id": "MALIBU_CURRENT_GEAR_VAR_2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear, variant 2"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "19D4"}, "freq": 1,
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "19D4"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "MALIBU_CLU_SLIP_C3_RING", "path": "Transmission", "fmt": { "len": 16, "max": 8191, "min": -8192, "div": 4, "sign": true, "unit": "rpm" }, "name": "Clutch slip, AT C3, ring"}
   ]},

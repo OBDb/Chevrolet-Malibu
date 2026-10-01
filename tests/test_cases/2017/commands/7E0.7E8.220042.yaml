@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.220042
+test_cases:
+- expected_values:
+    MALIBU_CTRL_MODULE_V: 13.706
+  response: 7E805620042358A
+- expected_values:
+    MALIBU_CTRL_MODULE_V: 13.987
+  response: 7E80562004236A3
+- expected_values:
+    MALIBU_CTRL_MODULE_V: 14.125
+  response: 7E805620042372D
+- expected_values:
+    MALIBU_CTRL_MODULE_V: 14.137
+  response: '7E8056200423739'
+- expected_values:
+    MALIBU_CTRL_MODULE_V: 14.144
+  response: '7E8056200423740'
+- expected_values:
+    MALIBU_CTRL_MODULE_V: 14.156
+  response: 7E805620042374C
+- expected_values:
+    MALIBU_CTRL_MODULE_V: 14.188
+  response: 7E805620042376C
+- expected_values:
+    MALIBU_CTRL_MODULE_V: 14.256
+  response: 7E80562004237B0
+- expected_values:
+    MALIBU_CTRL_MODULE_V: 14.369
+  response: '7E8056200423821'

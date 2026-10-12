@@ -4,5 +4,8 @@ test_cases:
     MALIBU_VSS: 0
   response: 7E80462000D00
 - expected_values:
+    MALIBU_VSS: 96
+  response: 7E80462000D60
+- expected_values:
     MALIBU_VSS: null
   response: 7E80462000DFF

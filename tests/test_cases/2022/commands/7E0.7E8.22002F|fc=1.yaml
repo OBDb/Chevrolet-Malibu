@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MALIBU_FLI: 99.60784
   response: 7E80462002FFE
+- expected_values:
+    MALIBU_FLI: 100
+  response: 7E80462002FFF

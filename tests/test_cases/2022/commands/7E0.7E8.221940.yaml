@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.221940
 test_cases:
 - expected_values:
+    MALIBU_ATF_T_VAR_1: 62
+  response: '7E80462194066'
+- expected_values:
+    MALIBU_ATF_T_VAR_1: 63
+  response: '7E80462194067'
+- expected_values:
+    MALIBU_ATF_T_VAR_1: 64
+  response: '7E80462194068'
+- expected_values:
     MALIBU_ATF_T_VAR_1: 79
   response: '7E80462194077'

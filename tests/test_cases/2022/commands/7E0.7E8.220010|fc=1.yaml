@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220010|fc=1
 test_cases:
 - expected_values:
-    MALIBU_MAF: 3.05
-  response: '7E8056200100131'
+    MALIBU_MAF: 1.95
+  response: 7E80562001000C3
 - expected_values:
     MALIBU_MAF: 4.93
   response: 7E80562001001ED

@@ -4,6 +4,9 @@ test_cases:
     MALIBU_TP_FR: 228.25
   response: '641056250060E44'
 - expected_values:
+    MALIBU_TP_FR: 231
+  response: '641056250060E70'
+- expected_values:
     MALIBU_TP_FR: 239.25
   response: 641056250060EF4
 - expected_values:

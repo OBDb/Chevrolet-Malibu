@@ -10,6 +10,9 @@ test_cases:
     MALIBU_TF_T_FLTED: 64
   response: 7EA0462295A68
 - expected_values:
+    MALIBU_TF_T_FLTED: 70
+  response: 7EA0462295A6E
+- expected_values:
     MALIBU_TF_T_FLTED: 79
   response: 7EA0462295A77
 - expected_values:

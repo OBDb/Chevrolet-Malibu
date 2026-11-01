@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221C1B
 test_cases:
 - expected_values:
+    MALIBU_EOP_CALC: 180
+  response: 7E804621C1B2D
+- expected_values:
     MALIBU_EOP_CALC: 188
   response: 7E804621C1B2F
 - expected_values:

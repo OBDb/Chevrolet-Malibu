@@ -4,5 +4,5 @@ test_cases:
     MALIBU_EOT_CALC: 67
   response: 7E8046211546B
 - expected_values:
-    MALIBU_EOT_CALC: 86
-  response: 7E8046211547E
+    MALIBU_EOT_CALC: 88
+  response: '7E80462115480'

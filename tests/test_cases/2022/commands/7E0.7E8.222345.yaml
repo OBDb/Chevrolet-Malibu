@@ -4,6 +4,9 @@ test_cases:
     MALIBU_EOP: 152
   response: '7E80462234526'
 - expected_values:
+    MALIBU_EOP: 176
+  response: 7E8046223452C
+- expected_values:
     MALIBU_EOP: 188
   response: 7E8046223452F
 - expected_values:

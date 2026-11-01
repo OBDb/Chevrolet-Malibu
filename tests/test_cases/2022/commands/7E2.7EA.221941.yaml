@@ -4,6 +4,9 @@ test_cases:
     MALIBU_TRANS_ISS: 724.5
   response: 7EA056219410B52
 - expected_values:
+    MALIBU_TRANS_ISS: 2303.25
+  response: 7EA0562194123FD
+- expected_values:
     MALIBU_TRANS_ISS: 2304.75
   response: 7EA056219412403
 - expected_values:

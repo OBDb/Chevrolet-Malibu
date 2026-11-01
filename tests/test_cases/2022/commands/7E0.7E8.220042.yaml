@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220042
 test_cases:
 - expected_values:
-    MALIBU_CTRL_MODULE_V: 12.649
-  response: '7E8056200423169'
+    MALIBU_CTRL_MODULE_V: 12.5
+  response: 7E80562004230D4
 - expected_values:
     MALIBU_CTRL_MODULE_V: 14.065
   response: 7E80562004236F1

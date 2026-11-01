@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.221940
+test_cases:
+- expected_values:
+    MALIBU_ATF_T: 79
+  response: 7EA0462194077
+- expected_values:
+    MALIBU_ATF_T: 80
+  response: 7EA0462194078

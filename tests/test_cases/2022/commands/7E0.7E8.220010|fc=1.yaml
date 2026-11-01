@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220010|fc=1
+test_cases:
+- expected_values:
+    MALIBU_MAF: 3.05
+  response: '7E8056200100131'
+- expected_values:
+    MALIBU_MAF: 4.93
+  response: 7E80562001001ED
+- expected_values:
+    MALIBU_MAF: 7.83
+  response: 7E805620010030F
+- expected_values:
+    MALIBU_MAF: 35.39
+  response: 7E8056200100DD3

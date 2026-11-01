@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.223812
+test_cases:
+- expected_values:
+    MALIBU_COOLING_FAN_CMD: 12.94118
+  response: '7E80462381221'
+- expected_values:
+    MALIBU_COOLING_FAN_CMD: 40.39216
+  response: '7E80462381267'

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22005C|fc=1
+test_cases:
+- expected_values:
+    MALIBU_EOT: 85
+  response: 7E80462005C7D
+- expected_values:
+    MALIBU_EOT: 86
+  response: 7E80462005C7E

@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221141
+test_cases:
+- expected_values:
+    MALIBU_IGN_1_V: 12.6
+  response: 7E8046211417E
+- expected_values:
+    MALIBU_IGN_1_V: 12.9
+  response: '7E80462114181'
+- expected_values:
+    MALIBU_IGN_1_V: 13.2
+  response: '7E80462114184'
+- expected_values:
+    MALIBU_IGN_1_V: 13.4
+  response: '7E80462114186'
+- expected_values:
+    MALIBU_IGN_1_V: 13.5
+  response: '7E80462114187'
+- expected_values:
+    MALIBU_IGN_1_V: 13.7
+  response: '7E80462114189'
+- expected_values:
+    MALIBU_IGN_1_V: 13.9
+  response: 7E8046211418B
+- expected_values:
+    MALIBU_IGN_1_V: 14
+  response: 7E8046211418C

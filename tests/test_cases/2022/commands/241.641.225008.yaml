@@ -1,0 +1,11 @@
+command_id: 241.641.225008
+test_cases:
+- expected_values:
+    MALIBU_TP_RL: 244.75
+  response: 641056250080F4C
+- expected_values:
+    MALIBU_TP_RL: 247.5
+  response: 641056250080F78
+- expected_values:
+    MALIBU_TP_RL: 250.25
+  response: 641056250080FA4

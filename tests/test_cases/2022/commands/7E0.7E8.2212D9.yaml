@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2212D9
+test_cases:
+- expected_values:
+    MALIBU_TOTAL_KNOCK_RETARD: 0
+  response: 7E8046212D900
+- expected_values:
+    MALIBU_TOTAL_KNOCK_RETARD: 0.45
+  response: 7E8046212D901
+- expected_values:
+    MALIBU_TOTAL_KNOCK_RETARD: 1.35
+  response: 7E8046212D903
+- expected_values:
+    MALIBU_TOTAL_KNOCK_RETARD: 2.25
+  response: 7E8046212D905
+- expected_values:
+    MALIBU_TOTAL_KNOCK_RETARD: 3.6
+  response: 7E8046212D908
+- expected_values:
+    MALIBU_TOTAL_KNOCK_RETARD: 5.4
+  response: 7E8046212D90C
+- expected_values:
+    MALIBU_TOTAL_KNOCK_RETARD: 5.85
+  response: 7E8046212D90D
+- expected_values:
+    MALIBU_TOTAL_KNOCK_RETARD: 10.35
+  response: 7E8046212D917

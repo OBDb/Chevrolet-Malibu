@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.222345
+test_cases:
+- expected_values:
+    MALIBU_EOP: 192
+  response: '7E80462234530'
+- expected_values:
+    MALIBU_EOP: 196
+  response: '7E80462234531'
+- expected_values:
+    MALIBU_EOP: 200
+  response: '7E80462234532'
+- expected_values:
+    MALIBU_EOP: 204
+  response: '7E80462234533'
+- expected_values:
+    MALIBU_EOP: 208
+  response: '7E80462234534'
+- expected_values:
+    MALIBU_EOP: 212
+  response: '7E80462234535'

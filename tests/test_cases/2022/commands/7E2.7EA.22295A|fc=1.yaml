@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.22295A|fc=1
+test_cases:
+- expected_values:
+    MALIBU_TF_T_FLTED: 79
+  response: 7EA0462295A77
+- expected_values:
+    MALIBU_TF_T_FLTED: 80
+  response: 7EA0462295A78

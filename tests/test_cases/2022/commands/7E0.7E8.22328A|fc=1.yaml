@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22328A|fc=1
+test_cases:
+- expected_values:
+    MALIBU_BP_DES: 27.32
+  response: 7E80562328A0AAC
+- expected_values:
+    MALIBU_BP_DES: 28.18
+  response: 7E80562328A0B02
+- expected_values:
+    MALIBU_BP_DES: 140.75
+  response: 7E80562328A36FB

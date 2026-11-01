@@ -1,0 +1,11 @@
+command_id: 7E2.7EA.221941
+test_cases:
+- expected_values:
+    MALIBU_TRANS_ISS: 2153.75
+  response: 7EA0562194121A7
+- expected_values:
+    MALIBU_TRANS_ISS: 2304.75
+  response: 7EA056219412403
+- expected_values:
+    MALIBU_TRANS_ISS: 4539.5
+  response: 7EA0562194146EE

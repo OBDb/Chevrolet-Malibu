@@ -4,8 +4,8 @@ test_cases:
     MALIBU_CTRL_MODULE_V: 12.649
   response: '7E8056200423169'
 - expected_values:
-    MALIBU_CTRL_MODULE_V: 13.897
-  response: '7E8056200423649'
-- expected_values:
     MALIBU_CTRL_MODULE_V: 14.065
   response: 7E80562004236F1
+- expected_values:
+    MALIBU_CTRL_MODULE_V: 14.598
+  response: '7E8056200423906'

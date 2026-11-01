@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2220E3|fc=1
 test_cases:
 - expected_values:
-    MALIBU_BP_ACT: 0.08
-  response: 7E8056220E30008
+    MALIBU_BP_ACT: 0
+  response: 7E8056220E30000
 - expected_values:
     MALIBU_BP_ACT: 2.35
   response: 7E8056220E300EB

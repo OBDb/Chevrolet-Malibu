@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     MALIBU_IGN_1_V: 14
   response: 7E8046211418C
+- expected_values:
+    MALIBU_IGN_1_V: 14.7
+  response: '7E80462114193'

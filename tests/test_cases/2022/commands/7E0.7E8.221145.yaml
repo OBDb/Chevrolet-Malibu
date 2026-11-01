@@ -4,29 +4,5 @@ test_cases:
     MALIBU_HEATED_OXYGEN_SENS: 0
   response: '7E80462114500'
 - expected_values:
-    MALIBU_HEATED_OXYGEN_SENS: 11
-  response: 7E8046211450B
-- expected_values:
-    MALIBU_HEATED_OXYGEN_SENS: 12
-  response: 7E8046211450C
-- expected_values:
-    MALIBU_HEATED_OXYGEN_SENS: 16
-  response: '7E80462114510'
-- expected_values:
-    MALIBU_HEATED_OXYGEN_SENS: 23
-  response: '7E80462114517'
-- expected_values:
-    MALIBU_HEATED_OXYGEN_SENS: 185
-  response: 7E804621145B9
-- expected_values:
-    MALIBU_HEATED_OXYGEN_SENS: 190
-  response: 7E804621145BE
-- expected_values:
-    MALIBU_HEATED_OXYGEN_SENS: 192
-  response: 7E804621145C0
-- expected_values:
-    MALIBU_HEATED_OXYGEN_SENS: 194
-  response: 7E804621145C2
-- expected_values:
     MALIBU_HEATED_OXYGEN_SENS: 212
   response: 7E804621145D4

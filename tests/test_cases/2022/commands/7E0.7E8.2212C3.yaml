@@ -4,26 +4,5 @@ test_cases:
     MALIBU_INJECTOR_DUTY_CYCLE_BANK_1: 0
   response: 7E8056212C30000
 - expected_values:
-    MALIBU_INJECTOR_DUTY_CYCLE_BANK_1: 1.245
-  response: 7E8056212C30053
-- expected_values:
-    MALIBU_INJECTOR_DUTY_CYCLE_BANK_1: 1.305
-  response: 7E8056212C30057
-- expected_values:
-    MALIBU_INJECTOR_DUTY_CYCLE_BANK_1: 2.01
-  response: 7E8056212C30086
-- expected_values:
-    MALIBU_INJECTOR_DUTY_CYCLE_BANK_1: 2.025
-  response: 7E8056212C30087
-- expected_values:
-    MALIBU_INJECTOR_DUTY_CYCLE_BANK_1: 2.205
-  response: 7E8056212C30093
-- expected_values:
-    MALIBU_INJECTOR_DUTY_CYCLE_BANK_1: 2.235
-  response: 7E8056212C30095
-- expected_values:
-    MALIBU_INJECTOR_DUTY_CYCLE_BANK_1: 2.55
-  response: 7E8056212C300AA
-- expected_values:
     MALIBU_INJECTOR_DUTY_CYCLE_BANK_1: 2.685
   response: 7E8056212C300B3

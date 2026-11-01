@@ -1,11 +1,20 @@
 command_id: 7E2.7EA.221B30|fc=1
 test_cases:
 - expected_values:
+    MALIBU_CURRENT_GEAR: -1
+  response: 7EA04621B3002
+- expected_values:
+    MALIBU_CURRENT_GEAR: 0
+  response: 7EA04621B3003
+- expected_values:
     MALIBU_CURRENT_GEAR: 1
   response: 7EA04621B3004
 - expected_values:
     MALIBU_CURRENT_GEAR: 2
   response: 7EA04621B3005
+- expected_values:
+    MALIBU_CURRENT_GEAR: 3
+  response: 7EA04621B3006
 - expected_values:
     MALIBU_CURRENT_GEAR: 4
   response: 7EA04621B3007

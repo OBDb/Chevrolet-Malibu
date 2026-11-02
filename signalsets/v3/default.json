@@ -43,7 +43,7 @@
   "signals": [
     {"id": "MALIBU_MAF", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "gramsPerSecond" }, "name": "Mass airflow sensor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "002F"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "002F"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "MALIBU_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},

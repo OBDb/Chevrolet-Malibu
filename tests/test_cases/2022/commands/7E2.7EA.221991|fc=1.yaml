@@ -4,8 +4,8 @@ test_cases:
     MALIBU_TC_SLIP_VSS: 0.125
   response: 7EA056219910001
 - expected_values:
-    MALIBU_TC_SLIP_VSS: -1
-  response: 7EA05621991FFF8
+    MALIBU_TC_SLIP_VSS: -2.125
+  response: 7EA05621991FFEF
 - expected_values:
     MALIBU_TC_SLIP_VSS: -0.375
   response: 7EA05621991FFFD

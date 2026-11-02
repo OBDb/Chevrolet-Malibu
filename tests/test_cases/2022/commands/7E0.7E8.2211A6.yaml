@@ -19,6 +19,9 @@ test_cases:
     MALIBU_KNOCK_RETARD: 4.62
   response: 7E8046211A615
 - expected_values:
+    MALIBU_KNOCK_RETARD: 5.72
+  response: 7E8046211A61A
+- expected_values:
     MALIBU_KNOCK_RETARD: 7.7
   response: 7E8046211A623
 - expected_values:

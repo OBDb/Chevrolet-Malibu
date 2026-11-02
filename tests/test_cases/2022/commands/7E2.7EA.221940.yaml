@@ -13,6 +13,9 @@ test_cases:
     MALIBU_ATF_T: 70
   response: 7EA046219406E
 - expected_values:
+    MALIBU_ATF_T: 74
+  response: 7EA0462194072
+- expected_values:
     MALIBU_ATF_T: 79
   response: 7EA0462194077
 - expected_values:

@@ -4,5 +4,5 @@ test_cases:
     MALIBU_HEATED_OXYGEN_SENS: 0
   response: '7E80462114500'
 - expected_values:
-    MALIBU_HEATED_OXYGEN_SENS: 212
-  response: 7E804621145D4
+    MALIBU_HEATED_OXYGEN_SENS: 219
+  response: 7E804621145DB

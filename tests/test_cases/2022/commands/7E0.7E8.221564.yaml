@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221564
 test_cases:
 - expected_values:
-    MALIBU_AC_HIGH_SIDE_P: 90.9
-  response: 7E8046215642D
+    MALIBU_AC_HIGH_SIDE_P: 80.8
+  response: '7E80462156428'
 - expected_values:
     MALIBU_AC_HIGH_SIDE_P: 202
   response: '7E80462156464'

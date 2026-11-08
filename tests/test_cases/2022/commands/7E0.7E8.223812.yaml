@@ -4,5 +4,5 @@ test_cases:
     MALIBU_COOLING_FAN_CMD: 9.01961
   response: '7E80462381217'
 - expected_values:
-    MALIBU_COOLING_FAN_CMD: 40.39216
-  response: '7E80462381267'
+    MALIBU_COOLING_FAN_CMD: 42.35294
+  response: 7E8046238126C

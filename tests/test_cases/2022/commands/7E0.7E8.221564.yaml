@@ -4,5 +4,5 @@ test_cases:
     MALIBU_AC_HIGH_SIDE_P: 80.8
   response: '7E80462156428'
 - expected_values:
-    MALIBU_AC_HIGH_SIDE_P: 202
-  response: '7E80462156464'
+    MALIBU_AC_HIGH_SIDE_P: 216.14
+  response: 7E8046215646B

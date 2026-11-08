@@ -10,6 +10,9 @@ test_cases:
     MALIBU_TP_RR: 233.75
   response: 641056250070E9C
 - expected_values:
+    MALIBU_TP_RR: 236.5
+  response: 641056250070EC8
+- expected_values:
     MALIBU_TP_RR: 239.25
   response: 641056250070EF4
 - expected_values:

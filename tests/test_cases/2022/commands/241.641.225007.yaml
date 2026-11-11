@@ -1,6 +1,9 @@
 command_id: 241.641.225007
 test_cases:
 - expected_values:
+    MALIBU_TP_RR: 198
+  response: 641056250070C60
+- expected_values:
     MALIBU_TP_RR: 228.25
   response: '641056250070E44'
 - expected_values:

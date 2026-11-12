@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MALIBU_AIRFILT_LIFE: 10
   response: 7E8056236A70A10
+- expected_values:
+    MALIBU_AIRFILT_LIFE: 50
+  response: 7E8056236A73210

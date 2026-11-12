@@ -4,26 +4,8 @@ test_cases:
     MALIBU_TP_FR: 184.25
   response: 641056250060B84
 - expected_values:
-    MALIBU_TP_FR: 220
-  response: 641056250060DC0
-- expected_values:
-    MALIBU_TP_FR: 222.75
-  response: 641056250060DEC
-- expected_values:
-    MALIBU_TP_FR: 225.5
-  response: '641056250060E18'
-- expected_values:
-    MALIBU_TP_FR: 228.25
-  response: '641056250060E44'
-- expected_values:
-    MALIBU_TP_FR: 231
-  response: '641056250060E70'
-- expected_values:
-    MALIBU_TP_FR: 233.75
-  response: 641056250060E9C
-- expected_values:
-    MALIBU_TP_FR: 236.5
-  response: 641056250060EC8
+    MALIBU_TP_FR: 192.5
+  response: 641056250060C08
 - expected_values:
     MALIBU_TP_FR: 239.25
   response: 641056250060EF4

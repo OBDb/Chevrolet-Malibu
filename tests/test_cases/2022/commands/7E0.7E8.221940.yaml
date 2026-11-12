@@ -25,5 +25,8 @@ test_cases:
     MALIBU_ATF_T_VAR_1: 74
   response: '7E80462194072'
 - expected_values:
+    MALIBU_ATF_T_VAR_1: 78
+  response: '7E80462194076'
+- expected_values:
     MALIBU_ATF_T_VAR_1: 79
   response: '7E80462194077'

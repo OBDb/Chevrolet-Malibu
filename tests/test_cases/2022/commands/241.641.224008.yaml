@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MALIBU_TID_RL: 1078863287
   response: 64107624008404E25B7
+- expected_values:
+    MALIBU_TID_RL: 1079000190
+  response: 6410762400840503C7E

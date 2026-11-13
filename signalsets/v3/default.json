@@ -143,11 +143,11 @@
   "signals": [
     {"id": "MALIBU_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A6"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11A6"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2016, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "MALIBU_KNOCK_RETARD", "path": "Engine", "fmt": { "len": 8, "max": 56.1, "mul": 22, "div": 100, "unit": "degrees" }, "name": "Knock retard"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11EA"}, "freq": 1, "filter": { "to": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11EA"}, "freq": 1, "filter": { "to": 2012 }, "dbgfilter": { "to": 2012 },
   "signals": [
     {"id": "MALIBU_MISFIRES_C5_CUR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 5"}
   ]},
@@ -163,7 +163,7 @@
   "signals": [
     {"id": "MALIBU_MIS_HISTORY_6", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2016, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "MALIBU_TOTAL_MISFIRE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Total misfire"}
   ]},
@@ -183,7 +183,7 @@
   "signals": [
     {"id": "MALIBU_MIS_HISTORY_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1205"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1205"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2016, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "MALIBU_MISFIRES_C2_CUR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfires, current, cylinder 2"}
   ]},
@@ -215,7 +215,7 @@
   "signals": [
     {"id": "MALIBU_INJECTOR_DUTY_CYCLE_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 983.025, "mul": 150, "div": 10000, "unit": "milliseconds" }, "name": "Injector duty cycle bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "12C4"}, "freq": 1, "filter": { "to": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "12C4"}, "freq": 1, "filter": { "to": 2012 }, "dbgfilter": { "to": 2012 },
   "signals": [
     {"id": "MALIBU_INJECTOR_DUTY_CYCLE_BANK_2", "path": "Engine", "fmt": { "len": 16, "max": 983.025, "mul": 150, "div": 10000, "unit": "milliseconds" }, "name": "Injector duty cycle bank 2"}
   ]},
@@ -223,7 +223,7 @@
   "signals": [
     {"id": "MALIBU_TOTAL_KNOCK_RETARD", "path": "Engine", "fmt": { "len": 8, "max": 114.75, "mul": 45, "div": 100, "unit": "degrees" }, "name": "Total knock retard"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AF"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13AF"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2016, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "MALIBU_COOLING_FAN_MOTOR_CMD", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Cooling fan motor command"}
   ]},
@@ -311,7 +311,7 @@
   "signals": [
     {"id": "MALIBU_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1C1B"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1C1B"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2016, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "MALIBU_EOP_CALC", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Calculated engine oil pressure"}
   ]},
@@ -331,7 +331,7 @@
   "signals": [
     {"id": "MALIBU_EOP_ABS", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Engine oil absolute pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2345"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2345"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2016, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "MALIBU_EOP", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
@@ -371,7 +371,7 @@
   "signals": [
     {"id": "MALIBU_BP_DES", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure, desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3318"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2019, 2020], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3318"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2016, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "MALIBU_EOP_CTRL_SOLENOID_VALVE_CMD", "path": "Engine", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Engine oil pressure control solenoid valve command"}
   ]},

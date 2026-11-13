@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MALIBU_RUNTM: 0
   response: 7E8056211A10000
+- expected_values:
+    MALIBU_RUNTM: 589
+  response: 7E8056211A1024D

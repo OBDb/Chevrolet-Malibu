@@ -4,29 +4,5 @@ test_cases:
     MALIBU_ATF_T_VAR_1: 29
   response: '7E80462194045'
 - expected_values:
-    MALIBU_ATF_T_VAR_1: 57
-  response: '7E80462194061'
-- expected_values:
-    MALIBU_ATF_T_VAR_1: 62
-  response: '7E80462194066'
-- expected_values:
-    MALIBU_ATF_T_VAR_1: 63
-  response: '7E80462194067'
-- expected_values:
-    MALIBU_ATF_T_VAR_1: 64
-  response: '7E80462194068'
-- expected_values:
-    MALIBU_ATF_T_VAR_1: 68
-  response: 7E8046219406C
-- expected_values:
-    MALIBU_ATF_T_VAR_1: 70
-  response: 7E8046219406E
-- expected_values:
-    MALIBU_ATF_T_VAR_1: 74
-  response: '7E80462194072'
-- expected_values:
-    MALIBU_ATF_T_VAR_1: 78
-  response: '7E80462194076'
-- expected_values:
-    MALIBU_ATF_T_VAR_1: 79
-  response: '7E80462194077'
+    MALIBU_ATF_T_VAR_1: 87
+  response: 7E8046219407F

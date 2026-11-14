@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22002F|fc=1
 test_cases:
 - expected_values:
-    MALIBU_FLI: 22.35294
-  response: 7E80462002F39
+    MALIBU_FLI: 18.03922
+  response: 7E80462002F2E
 - expected_values:
     MALIBU_FLI: 100
   response: 7E80462002FFF

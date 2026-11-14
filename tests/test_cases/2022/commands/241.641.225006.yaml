@@ -7,8 +7,8 @@ test_cases:
     MALIBU_TP_FR: 192.5
   response: 641056250060C08
 - expected_values:
-    MALIBU_TP_FR: 239.25
-  response: 641056250060EF4
+    MALIBU_TP_FR: 255.75
+  response: 641056250060FFC
 - expected_values:
-    MALIBU_TP_FR: 242
-  response: 641056250060F20
+    MALIBU_TP_FR: 258.5
+  response: '641056250061028'

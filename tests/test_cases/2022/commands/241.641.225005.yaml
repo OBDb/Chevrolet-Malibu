@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MALIBU_TP_FL: 255.75
   response: 641056250050FFC
+- expected_values:
+    MALIBU_TP_FL: 258.5
+  response: '641056250051028'

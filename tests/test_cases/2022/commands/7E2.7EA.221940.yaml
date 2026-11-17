@@ -1,29 +1,8 @@
 command_id: 7E2.7EA.221940
 test_cases:
 - expected_values:
-    MALIBU_ATF_T: 29
-  response: 7EA0462194045
-- expected_values:
-    MALIBU_ATF_T: 58
-  response: 7EA0462194062
-- expected_values:
-    MALIBU_ATF_T: 62
-  response: 7EA0462194066
-- expected_values:
-    MALIBU_ATF_T: 63
-  response: 7EA0462194067
-- expected_values:
-    MALIBU_ATF_T: 64
-  response: 7EA0462194068
-- expected_values:
-    MALIBU_ATF_T: 70
-  response: 7EA046219406E
-- expected_values:
-    MALIBU_ATF_T: 74
-  response: 7EA0462194072
-- expected_values:
-    MALIBU_ATF_T: 79
-  response: 7EA0462194077
+    MALIBU_ATF_T: 16
+  response: 7EA0462194038
 - expected_values:
     MALIBU_ATF_T: 80
   response: 7EA0462194078
